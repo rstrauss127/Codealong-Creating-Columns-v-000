@@ -126,6 +126,15 @@ section {
   margin-bottom: 20px;
 }
 /*SOCIAL*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
+
 #social {
   position: fixed;
   top: 200px;
