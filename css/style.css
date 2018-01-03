@@ -77,3 +77,23 @@ figcaption {
   margin: 0 aut0;
   background-color: #eee;
 }
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #CCC;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #CCC;
+}
+
+.col-3 {
+  background: #CCC;
+}
+
+[class*="col-"] {
+  margin-left: 2%
+}
